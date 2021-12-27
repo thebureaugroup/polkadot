@@ -2649,7 +2649,7 @@ dependencies = [
  "httparse",
  "httpdate",
  "itoa",
- "pin-project 1.0.4",
+ "pin-project 1.0.9",
  "socket2 0.3.17",
  "tokio 0.2.21",
  "tower-service",
@@ -3340,7 +3340,7 @@ dependencies = [
  "libp2p-yamux",
  "parity-multiaddr",
  "parking_lot 0.11.1",
- "pin-project 1.0.4",
+ "pin-project 1.0.9",
  "smallvec 1.6.1",
  "wasm-timer",
 ]
@@ -3365,7 +3365,7 @@ dependencies = [
  "multistream-select",
  "parity-multiaddr",
  "parking_lot 0.11.1",
- "pin-project 1.0.4",
+ "pin-project 1.0.9",
  "prost",
  "prost-build",
  "rand 0.7.3",
@@ -3591,7 +3591,7 @@ checksum = "6ce3374f3b28162db9d3442c9347c4f14cb01e8290052615c7d341d40eae0599"
 dependencies = [
  "futures 0.3.13",
  "log",
- "pin-project 1.0.4",
+ "pin-project 1.0.9",
  "rand 0.7.3",
  "salsa20",
  "sha3",
@@ -3610,7 +3610,7 @@ dependencies = [
  "libp2p-core",
  "libp2p-swarm",
  "log",
- "pin-project 1.0.4",
+ "pin-project 1.0.9",
  "prost",
  "prost-build",
  "rand 0.7.3",
@@ -4175,7 +4175,7 @@ dependencies = [
  "bytes 1.0.1",
  "futures 0.3.13",
  "log",
- "pin-project 1.0.4",
+ "pin-project 1.0.9",
  "smallvec 1.6.1",
  "unsigned-varint 0.6.0",
 ]
@@ -5432,11 +5432,11 @@ dependencies = [
 
 [[package]]
 name = "pin-project"
-version = "1.0.4"
+version = "1.0.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "95b70b68509f17aa2857863b6fa00bf21fc93674c7a8893de2f469f6aa7ca2f2"
+checksum = "1622113ce508488160cff04e6abc60960e676d330e1ca0f77c0b8df17c81438f"
 dependencies = [
- "pin-project-internal 1.0.4",
+ "pin-project-internal 1.0.9",
 ]
 
 [[package]]
@@ -5452,9 +5452,9 @@ dependencies = [
 
 [[package]]
 name = "pin-project-internal"
-version = "1.0.4"
+version = "1.0.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "caa25a6393f22ce819b0f50e0be89287292fda8d425be38ee0ca14c4931d9e71"
+checksum = "b95af56fee93df76d721d356ac1ca41fccf168bc448eb14049234df764ba3e76"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -5943,7 +5943,7 @@ dependencies = [
  "hex-literal",
  "libc",
  "parity-scale-codec",
- "pin-project 1.0.4",
+ "pin-project 1.0.9",
  "polkadot-core-primitives",
  "polkadot-parachain",
  "rand 0.8.3",
@@ -6048,7 +6048,7 @@ dependencies = [
  "mick-jaeger",
  "parity-scale-codec",
  "parking_lot 0.11.1",
- "pin-project 1.0.4",
+ "pin-project 1.0.9",
  "polkadot-node-jaeger",
  "polkadot-node-network-protocol",
  "polkadot-node-primitives",
@@ -6073,7 +6073,7 @@ dependencies = [
  "futures-timer 3.0.2",
  "parity-scale-codec",
  "parking_lot 0.11.1",
- "pin-project 1.0.4",
+ "pin-project 1.0.9",
  "polkadot-node-primitives",
  "polkadot-node-subsystem",
  "polkadot-node-subsystem-util",
@@ -6099,7 +6099,7 @@ dependencies = [
  "metered-channel",
  "parity-scale-codec",
  "parking_lot 0.11.1",
- "pin-project 1.0.4",
+ "pin-project 1.0.9",
  "polkadot-node-jaeger",
  "polkadot-node-network-protocol",
  "polkadot-node-primitives",
@@ -6822,9 +6822,9 @@ checksum = "eba180dafb9038b050a4c280019bbedf9f2467b61e5d892dcad585bb57aadc5a"
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.24"
+version = "1.0.35"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1e0704ee1a7e00d7bb417d0770ea303c1bccbabf0ef1667dae92b5967f5f8a71"
+checksum = "392a54546fda6b7cc663379d0e6ce8b324cf88aecc5a499838e1be9781bdce2e"
 dependencies = [
  "unicode-xid",
 ]
@@ -7971,7 +7971,7 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "parking_lot 0.11.1",
- "pin-project 1.0.4",
+ "pin-project 1.0.9",
  "rand 0.7.3",
  "sc-block-builder",
  "sc-client-api",
@@ -8126,7 +8126,7 @@ dependencies = [
  "nohash-hasher",
  "parity-scale-codec",
  "parking_lot 0.11.1",
- "pin-project 1.0.4",
+ "pin-project 1.0.9",
  "prost",
  "prost-build",
  "rand 0.7.3",
@@ -8312,7 +8312,7 @@ dependencies = [
  "parity-scale-codec",
  "parity-util-mem",
  "parking_lot 0.11.1",
- "pin-project 1.0.4",
+ "pin-project 1.0.9",
  "rand 0.7.3",
  "sc-block-builder",
  "sc-chain-spec",
@@ -8402,7 +8402,7 @@ dependencies = [
  "libp2p",
  "log",
  "parking_lot 0.11.1",
- "pin-project 1.0.4",
+ "pin-project 1.0.9",
  "rand 0.7.3",
  "serde",
  "serde_json",
@@ -9830,9 +9830,9 @@ checksum = "502d53007c02d7605a05df1c1a73ee436952781653da5d0bf57ad608f66932c1"
 
 [[package]]
 name = "syn"
-version = "1.0.60"
+version = "1.0.84"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c700597eca8a5a762beb35753ef6b94df201c81cca676604f547495a0d7f0081"
+checksum = "ecb2e6da8ee5eb9a61068762a32fa9619cc591ceb055b3687f4cd4051ec2e06b"
 dependencies = [
  "proc-macro2",
  "quote",
